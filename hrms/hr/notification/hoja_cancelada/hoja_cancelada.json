@@ -1,0 +1,32 @@
+{
+ "attach_print": 0,
+ "channel": "System Notification",
+ "condition": "doc.workflow_state == 'Cancelado' and doc.custom_old_workflow_state == 'Alta'",
+ "creation": "2024-12-05 14:30:01.996150",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Job Offer",
+ "enabled": 1,
+ "event": "Value Change",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "<p>La hoja de contrataci\u00f3n <strong>{{ doc.name }}</strong> ha sido Cancelada.</p>\n",
+ "message_type": "Markdown",
+ "method": "",
+ "modified": "2025-02-07 08:46:54.735645",
+ "modified_by": "Administrator",
+ "module": "HR",
+ "name": "Hoja Cancelada",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_role": "Asesor\u00eda"
+  }
+ ],
+ "send_system_notification": 0,
+ "send_to_all_assignees": 0,
+ "set_property_after_alert": "",
+ "subject": "{{doc.name}} cancelada",
+ "value_changed": "workflow_state"
+}

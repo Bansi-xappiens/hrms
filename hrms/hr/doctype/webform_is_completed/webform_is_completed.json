@@ -1,0 +1,58 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-03 12:56:24.962769",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "formulario",
+  "formulario_link",
+  "realizado",
+  "fecha_fin"
+ ],
+ "fields": [
+  {
+   "fieldname": "formulario",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Formulario",
+   "options": "Web Form",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "realizado",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Realizado",
+   "read_only": 1
+  },
+  {
+   "fieldname": "fecha_fin",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Fecha finalizacion",
+   "read_only": 1
+  },
+  {
+   "fieldname": "formulario_link",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Enlace al formulario completado del usuario",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-12-05 13:25:49.272531",
+ "modified_by": "Administrator",
+ "module": "HR",
+ "name": "webform_is_completed",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,30 @@
+{
+ "attach_print": 0,
+ "channel": "System Notification",
+ "condition": "doc.custom_firmado == 1",
+ "creation": "2024-11-18 14:19:54.666769",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Job Offer",
+ "enabled": 1,
+ "event": "Value Change",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "<p>Contrato firmado ha sido adjuntado en la hoja de contrataci\u00f3n {{doc.name}}\nEmpleado: {{doc.applicant_name}}</p>\n",
+ "message_type": "Markdown",
+ "modified": "2025-02-11 10:32:15.762101",
+ "modified_by": "bansi@xappiens.com",
+ "module": "HR",
+ "name": "Contrato firmado adjuntado en hoja de contrataci\u00f3n {{doc.name}}",
+ "owner": "developer@xappiens.com",
+ "recipients": [
+  {
+   "receiver_by_document_field": "owner"
+  }
+ ],
+ "send_system_notification": 1,
+ "send_to_all_assignees": 0,
+ "subject": "Contrato firmado adjuntado en hoja de contrataci\u00f3n {{ doc.name}}",
+ "value_changed": "custom_firmado"
+}

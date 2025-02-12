@@ -1,0 +1,34 @@
+{
+ "attach_print": 0,
+ "channel": "Email",
+ "condition": "doc.custom_comunicacion",
+ "creation": "2024-08-28 15:50:11.435277",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Job Offer",
+ "enabled": 0,
+ "event": "Custom",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "<h3>Archivo de Comunicaci\u00f3n Adjuntado</h3>\n\n<p>El archivo de comunicaci\u00f3n ha sido adjuntado en la hoja de contrataci\u00f3n <a href=\"{{ frappe.utils.get_url_to_form(doc.doctype, doc.name) }}\">{{ doc.name }}</a>. Por favor, revisa los detalles a continuaci\u00f3n:</p>\n\n<h4>Detalles</h4>\n\n<ul>\n<li><strong>Nombre del Candidato/Empleado:</strong> {{ doc.applicant_name }}</li>\n<li><strong>Email del Candidato/Empleado:</strong> {{ doc.email }}</li>\n<li><strong>URL del Archivo de Comunicaci\u00f3n:</strong> <a href=\"{{ doc.custom_comunicacion }}\">Archivo</a></li>\n</ul>\n\n<p><!-- Muestra el \u00faltimo comentario si existe -->\n{% if comments %}</p>\n\n<p><strong>\u00daltimo comentario:</strong> \"{{ comments[-1].comment }}\" por {{ comments[-1].by }}</p>\n\n<p>{% endif %}</p>\n",
+ "message_type": "Markdown",
+ "modified": "2025-02-07 08:47:09.685708",
+ "modified_by": "Administrator",
+ "module": "HR",
+ "name": "Notificaci\u00f3n Comunicaci\u00f3n Adjuntada",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_document_field": "owner"
+  },
+  {
+   "receiver_by_document_field": "validated_by"
+  }
+ ],
+ "send_system_notification": 0,
+ "send_to_all_assignees": 0,
+ "sender": "Contratacion",
+ "sender_email": "contratacion@grupoatu.es",
+ "subject": "Archivo de Comunicaci\u00f3n Adjuntado"
+}

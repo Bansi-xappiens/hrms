@@ -1,0 +1,35 @@
+{
+ "attach_print": 0,
+ "channel": "System Notification",
+ "condition": "doc.custom_alta",
+ "creation": "2024-10-23 11:10:31.449504",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Job Offer",
+ "enabled": 0,
+ "event": "Custom",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "<h3>Archivo de Alta Adjuntado</h3>\n\n<p>El archivo de alta ha sido adjuntado en la hoja de contrataci\u00f3n <a href=\"{{ frappe.utils.get_url_to_form(doc.doctype, doc.name) }}\">{{ doc.name }}</a>. Por favor, revisa los detalles a continuaci\u00f3n:</p>\n\n<h4>Detalles</h4>\n\n<ul>\n<li><strong>Nombre del Candidato/Empleado:</strong> {{ doc.applicant_name }}</li>\n<li><strong>Email del Candidato/Empleado:</strong> {{ doc.applicant_email }}</li>\n<li><strong>URL del Archivo de Alta:</strong> <a href=\"{{ doc.custom_alta }}\">Archivo</a></li>\n</ul>\n\n<p>{% if comments %}</p>\n\n<p><strong>\u00daltimo comentario:</strong> \"{{ comments[-1].comment }}\" por {{ comments[-1].by }}</p>\n\n<p>{% endif %}</p>\n",
+ "message_type": "Markdown",
+ "modified": "2025-02-07 08:48:45.869011",
+ "modified_by": "Administrator",
+ "module": "HR",
+ "name": "Archivo Alta Adjuntado",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_document_field": "owner"
+  },
+  {
+   "receiver_by_document_field": "validated_by"
+  }
+ ],
+ "send_system_notification": 1,
+ "send_to_all_assignees": 0,
+ "sender": "Contratacion",
+ "sender_email": "contratacion@grupoatu.es",
+ "subject": "Archivo de Alta Adjuntado",
+ "value_changed": "custom_alta"
+}

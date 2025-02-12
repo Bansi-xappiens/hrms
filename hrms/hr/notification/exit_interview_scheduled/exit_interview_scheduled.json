@@ -1,0 +1,30 @@
+{
+ "attach_print": 0,
+ "channel": "Email",
+ "condition": "doc.date and doc.email and doc.docstatus != 2 and doc.status == 'Scheduled'",
+ "creation": "2021-12-05 22:11:47.263933",
+ "date_changed": "date",
+ "days_in_advance": 1,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Exit Interview",
+ "enabled": 0,
+ "event": "Days Before",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "<table class=\"panel-header\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">\n    <tr height=\"10\"></tr>\n    <tr>\n        <td width=\"15\"></td>\n        <td>\n            <div class=\"text-medium text-muted\">\n                <span>{{_(\"Exit Interview Scheduled:\")}} {{ doc.name }}</span>\n            </div>\n        </td>\n        <td width=\"15\"></td>\n    </tr>\n    <tr height=\"10\"></tr>\n</table>\n\n<table class=\"panel-body\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">\n    <tr height=\"10\"></tr>\n    <tr>\n        <td width=\"15\"></td>\n        <td>\n            <div>\n                <ul class=\"list-unstyled\" style=\"line-height: 1.7\">\n                    <li>{{_(\"Employee\")}}: <b>{{ doc.employee }} - {{ doc.employee_name }}</b></li>\n                    <li>{{_(\"Date\")}}: <b>{{ doc.date }}</b></li>\n                    <li> {{_(\"Interviewers\")}}: </li>\n                    {% for entry in doc.interviewers %}\n                        <ul>\n                            <li>{{ entry.user }}</li>\n                        </ul>\n                    {% endfor %}\n                    <li>{{ _(\"Interview Document\") }}: {{ frappe.utils.get_link_to_form(doc.doctype, doc.name) }}</li>\n                </ul>\n            </div>\n        </td>\n        <td width=\"15\"></td>\n    </tr>\n    <tr height=\"10\"></tr>\n</table>\n",
+ "modified": "2025-02-07 08:30:39.430815",
+ "modified_by": "Administrator",
+ "module": "HR",
+ "name": "Exit Interview Scheduled",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_document_field": "email"
+  }
+ ],
+ "send_system_notification": 0,
+ "send_to_all_assignees": 1,
+ "sender": "ERP Grupo ATU",
+ "subject": "Exit Interview Scheduled: {{ doc.name }}"
+}

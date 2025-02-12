@@ -1,0 +1,238 @@
+{
+ "charts": [
+  {
+   "chart_name": "Personas con Discapacidad por Empresa",
+   "label": "Personas con Discapacidad por Empresa"
+  }
+ ],
+ "content": "[{\"id\":\"GryoRrWdb3\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Your Shortcuts</b></span>\",\"col\":12}},{\"id\":\"_vT0S80v7-\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Leave Application\",\"col\":3}},{\"id\":\"4lGs1glop_\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Leave Allocation\",\"col\":3}},{\"id\":\"Tnf-nnDOit\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Calculadora Vida Laboral\",\"col\":3}},{\"id\":\"kP95qI0Kx_\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"v9vXyHvMAX\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Personas con Discapacidad por Empresa\",\"col\":12}},{\"id\":\"afLKA5EvQb\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Empleados sin Departamento\",\"col\":4}},{\"id\":\"mLjFy6fIP7\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Personas Discapacidad Contratadas\",\"col\":4}},{\"id\":\"byo_tNfOOS\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Empleados sin Usuario\",\"col\":4}},{\"id\":\"9nq1oaWGuU\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"IzQ_B9PEiJ\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Masters &amp; Reports</b></span>\",\"col\":12}},{\"id\":\"UZU5aC1En3\",\"type\":\"card\",\"data\":{\"card_name\":\"Setup\",\"col\":4}},{\"id\":\"gBEhmJgb_7\",\"type\":\"card\",\"data\":{\"card_name\":\"Asignaci\u00f3n\",\"col\":4}},{\"id\":\"rtrjT9ZnNs\",\"type\":\"card\",\"data\":{\"card_name\":\"Application\",\"col\":4}},{\"id\":\"xHXxbkgNg3\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports\",\"col\":4}}]",
+ "creation": "2022-08-20 16:06:26.672497",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "non-profit",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Leaves",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Setup",
+   "link_count": 5,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Holiday List",
+   "link_count": 0,
+   "link_to": "Holiday List",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Leave Type",
+   "link_count": 0,
+   "link_to": "Leave Type",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Leave Period",
+   "link_count": 0,
+   "link_to": "Leave Period",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Leave Policy",
+   "link_count": 0,
+   "link_to": "Leave Policy",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Leave Block List",
+   "link_count": 0,
+   "link_to": "Leave Block List",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Application",
+   "link_count": 2,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Leave Application",
+   "link_count": 0,
+   "link_to": "Leave Application",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Compensatory Leave Request",
+   "link_count": 0,
+   "link_to": "Compensatory Leave Request",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Reports",
+   "link_count": 3,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Employee Leave Balance",
+   "link_count": 0,
+   "link_to": "Employee Leave Balance",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Employee Leave Balance Summary",
+   "link_count": 0,
+   "link_to": "Employee Leave Balance Summary",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Employees working on a holiday",
+   "link_count": 0,
+   "link_to": "Employees working on a holiday",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Asignaci\u00f3n",
+   "link_count": 3,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Asignaci\u00f3n de vacaciones",
+   "link_count": 0,
+   "link_to": "Leave Allocation",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Leave Policy Assignment",
+   "link_count": 0,
+   "link_to": "Leave Policy Assignment",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Panel de control de ausencias",
+   "link_count": 0,
+   "link_to": "Leave Control Panel",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2025-02-07 13:37:22.295979",
+ "modified_by": "magic@xappiens.com",
+ "module": "HR",
+ "name": "Leaves",
+ "number_cards": [
+  {
+   "label": "Personas Discapacidad Contratadas",
+   "number_card_name": "Personas con Discapacidad en Alta"
+  },
+  {
+   "label": "Empleados sin Departamento",
+   "number_card_name": "Empleados sin Departamento"
+  },
+  {
+   "label": "Empleados sin Usuario",
+   "number_card_name": "Empleado sin Usuario"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "RRHH",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Administrador de Avales"
+  }
+ ],
+ "sequence_id": 24.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Calculadora Vida Laboral",
+   "link_to": "Calculadora Vida Laboral",
+   "type": "Report"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "List",
+   "format": "{} Open",
+   "label": "Leave Application",
+   "link_to": "Leave Application",
+   "stats_filter": "{\"status\":[\"=\",\"Open\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Leave Allocation",
+   "link_to": "Leave Allocation",
+   "type": "DocType"
+  }
+ ],
+ "title": "Leaves"
+}

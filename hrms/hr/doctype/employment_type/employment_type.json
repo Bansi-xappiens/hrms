@@ -1,0 +1,72 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "format:{contract_type} - {employee_type_name}",
+ "creation": "2013-01-10 16:34:14",
+ "doctype": "DocType",
+ "document_type": "Setup",
+ "engine": "InnoDB",
+ "field_order": [
+  "employee_type_name",
+  "contract_type"
+ ],
+ "fields": [
+  {
+   "fieldname": "employee_type_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Employment Type Name",
+   "oldfieldname": "employee_type_name",
+   "oldfieldtype": "Data",
+   "reqd": 1
+  },
+  {
+   "fieldname": "contract_type",
+   "fieldtype": "Data",
+   "label": "Contract Type",
+   "reqd": 1
+  }
+ ],
+ "icon": "fa fa-flag",
+ "idx": 1,
+ "links": [],
+ "modified": "2024-12-04 12:33:16.794466",
+ "modified_by": "Administrator",
+ "module": "HR",
+ "name": "Employment Type",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "HR User",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "import": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "HR Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "show_name_in_global_search": 1,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "translated_doctype": 1
+}
